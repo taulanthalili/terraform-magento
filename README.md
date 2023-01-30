@@ -5,7 +5,7 @@ How to use it:
 
 ```
 module "magento_app" {
-  source          = "git@github.com:taulanthalili/terraform-magento.git?ref=main"
+  source          = "git::https://github.com/taulanthalili/terraform-magento.git?ref=main"
   namespace       = var.project_name
   environment     = var.environment
   magneto_domain  = var.project_domain
